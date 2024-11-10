@@ -31,4 +31,6 @@ data = pd.read_csv("path/to/your_dataset.csv")
 Run the script :
 python Q4_1_bank_complaint_analytic.py
 python Q4_2_credit_card_complaint_analytic.py
-python Question#5_bank_marketing_analytic.py
+
+For Question5, run each of the python script :
+Example : python kpi.py
