@@ -6,7 +6,7 @@ from matplotlib.patches import Rectangle
 # Load the dataset
 data = pd.read_csv('C:/Users/izulhish/Downloads/Task Assessment/bank_account_or_service_complaints.csv')
 
-# Filter out rows with missing data and ensure 'company' is included
+# Filter out rows with missing data 
 data_filtered = data[['state', 'issue', 'submitted_via', 'date_received', 'company']].dropna()
 
 # Convert date_received
